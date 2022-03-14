@@ -32,10 +32,10 @@ Nas variáveis do sistema, encontre PATH, e clique no botão ***Editar...***:
 
 ### 4.2 Na ultima versão do Windows 10, irá exibir essa janela nova, clique em ***Novo*** e adicione `%JAVA_HOME%\bin`
 
-*Nota*
-*Colocar o %JAVA_HOME%\bin no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.*
+- [Nota]
+Colocar o %JAVA_HOME%\bin no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.
 
-# 5. Teste
+## 5. Teste
 
 ```C:\Users\Hugo>java -version
 java version "1.8.0_202"
