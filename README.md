@@ -1,4 +1,4 @@
-# configuracao-java-windows
+# Configuração das variáveis de ambiente Java Windows
 
 ## 1. Propriedades do Sistema
 
@@ -14,24 +14,28 @@ Selecione a guia `Avançado`, clique em `Variáveis de Ambiente`.
 
 ## 3. Adicionar JAVA_HOME
 
-Em Variáveis do sistema, clique no botão `Novo...` para adicionar uma nova variável JAVA_HOME e apontá-la para a pasta instalada do JDK.
+Em Variáveis do sistema, clique no botão `Novo...` para adicionar uma nova variável `JAVA_HOME` e apontá-la para a pasta instalada do JDK.
 
-Note
+- [Nota]
 Não inclua a pasta \bin, apenas a pasta do JDK. Por exemplo:
-Correct – C:\Program Files\Java\jdk1.8.0_60
-Wrong – C:\Program Files\Java\jdk1.8.0_60\bin
+**Correto – C:\Program Files\Java\jdk1.8.0**
+Errado – C:\Program Files\Java\jdk1.8.0\bin
+
+<p align="center"><img src="./imagem3.webp" alt="imagem 2"></p>
 
 
 ## 4. Atualizar PATH
 
-In System variables, find PATH, clicks edit... button :
+Nas variáveis do sistema, encontre PATH, e clique no botão ***Editar...***:
 
-### 4.1 In old version of Windows, it will prompt you below dialog box to edit the values directly, append this %JAVA_HOME%\bin; to the end of the line.
+### 4.1 Em uma versão mais antiga do Windows, irá exibir uma janela para editar os valores diretamente, concatene %JAVA_HOME%\bin; ao fim da linha.
 
-*Note*
-*Puts the %JAVA_HOME%\bin in PATH make all the Java’s commands (java, javac, jstack and etc) are accessible from everywhere.*
+### 4.2 Na ultima versão do Windows 10, irá exibir essa janela nova, clique em ***Novo*** e adicione `%JAVA_HOME%\bin`
 
-# 5. Test
+*Nota*
+*Colocar o %JAVA_HOME%\bin no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.*
+
+# 5. Teste
 
 ```C:\Users\Hugo>java -version
 java version "1.8.0_202"
