@@ -4,13 +4,11 @@
 
 Digite *variáveis de ambiente* na caixa de pesquisa (ao lado do botão Iniciar do Windows), clique em `Editar as variáveis de ambiente do sistema`.
 
-<p align="center"><img src="./imagem1.webp" alt="imagem 1"></p>
-
 ## 2. Variáveis do Ambiente
 
 Selecione a guia `Avançado`, clique em `Variáveis de Ambiente`.
 
-<p align="center"><img src="./imagem2.webp" alt="imagem 2"></p>
+<p align="center"><img src="./imagem1.webp" alt="imagem 2"></p>
 
 ## 3. Adicionar JAVA_HOME
 
@@ -21,7 +19,9 @@ Não inclua a pasta \bin, apenas a pasta do JDK. Por exemplo:
 **Correto – C:\Program Files\Java\jdk1.8.0**
 Errado – C:\Program Files\Java\jdk1.8.0\bin
 
-<p align="center"><img src="./imagem3.webp" alt="imagem 2"></p>
+<p align="center"><img src="./imagem2.png" alt="imagem 2"></p>
+
+<p align="center"><img src="./imagem3.png" alt="imagem 2"></p>
 
 
 ## 4. Atualizar PATH
@@ -31,6 +31,11 @@ Nas variáveis do sistema, encontre PATH, e clique no botão ***Editar...***:
 ### 4.1 Em uma versão mais antiga do Windows, irá exibir uma janela para editar os valores diretamente, concatene %JAVA_HOME%\bin; ao fim da linha.
 
 ### 4.2 Na ultima versão do Windows 10, irá exibir essa janela nova, clique em ***Novo*** e adicione `%JAVA_HOME%\bin`
+
+<br>
+
+<p align="center"><img src="./imagem4.webp" alt="imagem 2"></p>
+
 
 *Nota*
 *Colocar o %JAVA_HOME%\bin no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.*
