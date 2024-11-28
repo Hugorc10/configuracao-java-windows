@@ -26,7 +26,7 @@ Errado – C:\Program Files\Java\jdk1.8.0\bin
 
 ## 4. Atualizar PATH
 
-Nas variáveis do sistema, encontre PATH, e clique no botão ***Editar...***:
+Nas **Variáveis de usuário**, encontre PATH, e clique no botão ***Editar...***:
 
 ### 4.1 Em uma versão mais antiga do Windows, irá exibir uma janela para editar os valores diretamente, concatene %JAVA_HOME%\bin; ao fim da linha.
 
@@ -37,7 +37,7 @@ Nas variáveis do sistema, encontre PATH, e clique no botão ***Editar...***:
 <p align="center"><img src="./imagem4.webp" alt="imagem 2"></p>
 
 - [Nota]
-Colocar o %JAVA_HOME%\bin no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.
+Colocar o ***%JAVA_HOME%\bin*** no caminho PATH faz todos os comandos Java (java, javac, jstack and etc) serem acessíveis por todos os usuários.
 
 ## 5. Teste
 
